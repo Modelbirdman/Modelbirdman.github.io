@@ -1,0 +1,68 @@
+div.container {
+    display: flex;
+}
+
+div.mouse{
+    position: relative;
+    overflow: hidden;
+}
+div.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32.5%;
+    height: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 80px;
+    color: red; 
+  }
+
+
+div.presentation {
+border: 5px solid red; /* Bordure rouge */
+      padding: 10px; /* Espace à l'intérieur du cadre */
+      display: inline-block;
+      font-size: 20px;
+      margin: 0
+}
+
+div.mouse:hover div.bg {
+    opacity: 1;
+  }
+  
+
+
+div.citation {
+    background-image: url('cadoizo.webp'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image */
+      background-size: auto 100%; /* Ajuste la taille de l'image pour couvrir tout le div */
+      background-position: top; /* Centre l'image dans le div */
+      background-repeat: repeat-x; /* Évite la répétition de l'image */
+    border: 5px solid blue; /* Bordure bleue */
+          padding: 2px; /* Espace à l'intérieur du cadre */
+          display: inline-block;
+          font-size: 25px;
+          margin: 0;
+          padding-right: 508px;
+          color: blue;
+    }
+
+
+
+div.haut {
+    flex: 1; /* Le texte prendra tout l'espace disponible à gauche */
+      padding: 20px;
+      background-color: green;
+}
+
+img#moi {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Ajuste automatiquement la hauteur en fonction de la largeur */
+    margin-right: 620px;  
+  }
+

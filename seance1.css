@@ -1,0 +1,7 @@
+p#jaaj { 
+    color: blue;
+}
+
+div > p {
+    color: black;
+}
